@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nibraz Portfolio</title>
+   <link rel="stylesheet" href="boot.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "vV6CbpT_InyRz81ld",
+      });
+   })();
+</script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">PORTFOLIO.</a>
+      <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav nav-center">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skill">Skill</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container py-5" id="home">
+    <div class="row align-items-center">
+      <div class="col-md-1 d-none d-md-flex flex-column gap-3 icon">
+        <a href="https://www.linkedin.com/in/nibraz-kodaniyil-528661256"><i class="bi bi-linkedin text-primary"></i></a>
+        <a href="https://www.instagram.com/nib__raz_73"><i class="bi bi-instagram" style="color: #E4405F;"></i></a>
+        <a href="mailto:nibrazcareer@gmail.com"><i class="bi bi-envelope text-primary"></i></a>
+        <a href="https://www.facebook.com/nib__raz_73"><i class="bi bi-facebook text-primary"></i></a>
+      </div>
+      <div class="col-md-6 text-center text-md-start">
+        <h1>I'm Web Developer<br />Nibraz Kodaniyil.</h1>
+      </div>
+      <div class="col-md-5 text-center">
+        <img src="./blu.jpg" class="intro-img" alt="Profile" />
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p class="about-text">
+      I'm a passionate web developer with a solid foundation in HTML, CSS, and JavaScript. I enjoy building responsive
+      and user-friendly websites, and I stay up to date with trends in both front-end and back-end development. I also
+      have experience in C, Java, and Python, which strengthens my problem-solving skills. I'm driven by a love for
+      programming and technology, and I constantly strive to improve by learning and creating clean, efficient digital
+      solutions.
+    </p>
+  </div>
+  <div class="container" id="project">
+    <h2 class="section-title">Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-4 project-card text-center">
+        <h5>Project-1</h5>
+        <img src="./secure.jpg" alt="Project 1" />
+      </div>
+      <div class="col-md-4 project-card text-center">
+        <h5>Project-2</h5>
+        <img src="./talk.jpg" alt="Project 2" />
+      </div>
+      <div class="col-md-4 project-card text-center">
+        <h5>Project-3</h5>
+        <img src="./go.png" alt="Project 3" />
+      </div>
+    </div>
+  </div>
+  <div class="container py-5" id="skill">
+    <h2 class="section-title">Skills</h2>
+    <div class="row g-4 text-center">
+      <div class="col-6 col-md-3">
+        <div class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/1532/1532556.png" alt="HTML5" style="width: 60px; height: 60px;" />
+          <p class="mt-3 mb-0">HTML5</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="skill-card">
+          <img src="https://tse1.mm.bing.net/th/id/OIP.8kNko0ip-RZ125_-PCSAiAHaIZ" alt="CSS" style="width: 60px; height: 60px;" />
+          <p class="mt-3 mb-0">CSS</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="skill-card">
+          <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png"
+            alt="JavaScript" style="width: 60px; height: 60px;" />
+          <p class="mt-3 mb-0">JavaScript</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="skill-card">
+          <img src="https://tse2.mm.bing.net/th/id/OIP.zd4Rhrz9MD7CwtoN9DweIAHaHa" alt="Python" style="width: 60px; height: 60px;" />
+          <p class="mt-3 mb-0">Python</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="contact" style="background-color: rgb(167, 203, 239); color: white; padding-top: 50px; padding-bottom: 50px;">
+  <h2 class="section-title">Contact Me</h2>
+
+ <form class="mx-auto" style="max-width: 600px;" onsubmit="sendMail(event)">
+  <div class="mb-3">
+    <input type="text" id="name" class="form-control" placeholder="Your Name" required />
+  </div>
+  <div class="mb-3">
+    <input type="email" id="email" class="form-control" placeholder="Your Email" required />
+  </div>
+  <div class="mb-3">
+    <textarea id="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+  </div>
+  <div class="text-center">
+    <button type="submit" class="btn" style="background-color: #3c4288; color: white; padding: 10px 25px; border-radius: 8px;">Send Message</button>
+  </div>
+</form>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="boot.js"></script>
+
+</body>
+</html>
