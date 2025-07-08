@@ -9,6 +9,9 @@
       background-color: #f8f9fa;
       padding: 20px 0;
     }
+    .intro-img{
+      border-radius: 50px;
+    }
     .navbar-brand {
       color: rgb(8, 58, 108);
       font-weight: bold;
